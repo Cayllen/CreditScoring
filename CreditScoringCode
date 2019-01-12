@@ -4,3 +4,4 @@ import sklearn as sk
 dataset = np.genfromtxt('german_credit.csv', delimiter=',')
 dataset = np.delete(dataset, 0, 0) #delete first line (names of attributes)
 
+#test
